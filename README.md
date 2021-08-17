@@ -3,8 +3,8 @@ git commandments
 first - git checkout develop
 1. git pull origin develop
 2. git checkout -b YourBranchName
-    checkout -b will create new branch
-    checkout will change your branch Name
+    - git checkout -b will create new branch
+    - gitcheckout will change your branch Name
     branch name format - activity number + your nickname Ex: ACT1-CEY
 4. do your changes
 5. git status - to see changes made
