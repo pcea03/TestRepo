@@ -7,7 +7,6 @@
   <body>
     <?php
     $i=9;
-
     for($x=1; $x<=$i; $x++)
     {
     	for($y=1; $y<=$i; $y++)
@@ -20,7 +19,7 @@
     			echo ".. ";
     		}
     	}
-    echo "<br>";
+      echo "<br>";
     }
      ?>
   </body>
