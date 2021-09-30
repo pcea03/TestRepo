@@ -57,7 +57,7 @@
             <!-- Password -->
             <div class="input-group mb-3">
                 <input pattern="^(?=.*[A-Za-z])(?=.*\d).{8,}$" type="password" id="password" class="form-control mb-1" name="password" placeholder="Password" required="required">
-                <span class="text-light font-weight-light text-uppercase text-center" style="width: 100%;font-size:x-small;">Password should be : First letter is Capitalized, atleast 8 characters with a mixture of atleast 2 numbers</span>
+                <span class="text-light font-weight-light text-uppercase text-center" style="width: 100%;font-size:x-small;">Atleast 8 characters with a mixture of atleast 2 numbers</span>
             </div>
 
             <!-- Send Button -->
