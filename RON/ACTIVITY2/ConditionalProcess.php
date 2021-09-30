@@ -3,9 +3,6 @@
 // Session Starts
 session_start();
 
-$daugthersCode = '';
-$wealthCode = '';
-$appearanceCode = '';
 
 // Checking if they already set the values for each category
 if(isset($_GET['daughtersCode'],$_GET['wealthCode'],$_GET['appearanceCode'])){
@@ -29,11 +26,6 @@ if(isset($_GET['daughtersCode'],$_GET['wealthCode'],$_GET['appearanceCode'])){
     } else if($daugthersCode == 'K' && $wealthCode == 'P' && $appearanceCode == 'P') {
         $_SESSION['decision'] = "STAY AWAY MADER PADER";
         $_SESSION['decision_type'] = "danger";
-        header("location: ConditionalStatements.php");
-    }else{
-        // If the categories are still null then print nothing
-        $_SESSION['decision'] = "Please Select from the Input Categories!";
-        $_SESSION['decision_type'] = "warning";
         header("location: ConditionalStatements.php");
     }
 

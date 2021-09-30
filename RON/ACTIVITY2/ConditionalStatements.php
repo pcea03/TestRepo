@@ -50,7 +50,7 @@
             <!-- J = General's Daughter and K = If not -->
             <div class="input-group mb-3">
                 <span class="input-group-text bg-warning fw-bold" id="daughtersCode">DAUGTHER'S CODE</span>
-                <select class="form-select" aria-label="Select Daughter's Code" name="daughtersCode" required>
+                <select class="form-select" aria-label="Select Daughter's Code" name="daughtersCode" required autofocus>
                     <option selected disabled value="">SELECT DAUGTHER'S CODE</option>
                     <option value='J'>J - General's Daughter</option>
                     <option value='K'>K - Not a General's Daughter</option>
