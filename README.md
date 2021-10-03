@@ -4,15 +4,7 @@ first - git checkout develop
 1. git pull origin develop
 2. git checkout -b YourBranchName
     - git checkout -b will create new branch
-<<<<<<< HEAD
     - git checkout will change your branch Name
-=======
-<<<<<<< HEAD
-    - git heckout will change your branch Name
-=======
-    - git checkout will change your branch Name
->>>>>>> 89422d3ebe4b071ae012d6339d7c632773b483a8
->>>>>>> 30eac5d34aafea4a6c3b35c692d3e5e7d1fa4115
     branch name format - activity number + your nickname Ex: ACT1-CEY
 4. do your changes
 5. git status - to see changes made
